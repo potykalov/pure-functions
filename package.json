@@ -1,0 +1,33 @@
+{
+  "name": "pure-functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/potykalov/pure-functions.git"
+  },
+  "keywords": [],
+  "author": "Dmitriy Potykalov <dmitriy.potykalov@gmail.com> (https://github.com/potykalov)",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/potykalov/pure-functions/issues"
+  },
+  "homepage": "https://github.com/potykalov/pure-functions#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.29.7",
+    "@babel/core": "^7.29.7",
+    "@babel/preset-env": "^7.29.7",
+    "@types/jest": "^30.0.0",
+    "babel-jest": "^30.4.1",
+    "jest": "^30.4.2",
+    "jest-environment-jsdom": "^30.4.1"
+  },
+  "dependencies": {
+    "core-js": "^3.50.0"
+  }
+}
